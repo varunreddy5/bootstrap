@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title>Your Logo</title>
+		<meta name="description" content="">
+		
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<!--font Style-->
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+	
+	<!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
+		<div class="container" id="main">
+			<div class="navbar navbar-fixed-top">
+				<div class="container">
+					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+						<a href="#" class="navbar-brand"><img src="images/logo.png"></a>
+							<div class="nav-collapse collapse navbar-responsive-collapse">
+								<ul class="nav navbar-nav">
+									<li class="active">
+										<a href="#">Home</a>
+									</li>
+									<li class="Dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<strong class="caret"></strong></a>
+
+										<ul class="dropdown-menu">
+											<li>
+												<a href="#">Web Design</a>
+											</li>
+											<li>
+												<a href="#">Web Development</a>
+											</li>
+											<li>
+												<a href="#">SEO</a>
+											</li>
+											<li class="divider"></li>
+											<li class="dropdown-header"> More Services</li>
+											<li>
+												<a href="#">Content Creation</a>
+											</li>
+											<li>
+												<a href="#">Social Media Marketting</a>
+											</li>
+
+										</ul>
+									</li>
+								</ul>
+								<form class="navbar-form pull-left">
+								
+									<input type="text" class="form-control" placeholder="Search" id="searchInput">
+									<button type="Submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+								</form>
+
+								<ul class="nav navbar-nav pull-right">
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> &nbsp;My Account<strong class="caret"></strong></a>
+
+										<ul class="dropdown-menu">
+											<li>
+												<a href="#"><span class="glyphicon glyphicon-wrench"></span> &nbsp;Settings</a>
+											</li>
+
+											<li>
+												<a href="#"><span class="glyphicon glyphicon-refresh"></span> &nbsp;Update Profice</a>
+											</li>
+
+											<li>
+												<a href="#"><span class="glyphicon glyphicon-briefcase"></span> &nbsp;Billing</a>
+											</li>
+											<li class="divider"></li>
+											<li>
+												<a href="#"><span class="glyphicon glyphicon-off"></span> &nbsp;Sign Out</a>
+											</li>
+
+
+										</ul>
+									</li>
+								</ul>
+							</div><!--end navbar collapse-->
+							
+					</div><!--end navbar-->
+				</div><!--end container-->
+
+			
+			<div class="carousel slide" id="myCarousel" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol>
+				
+				<div class="carousel-inner">
+					<div class="item active" id="slide1">
+						<div class="carousel-caption">
+							<h4>Bootstrap 3</h4>
+							<p>Learn how to build your first responsive website with twitter Bootstrap 3</p>
+						</div>
+					</div>
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>Learn to Code in 4-hours</h4>
+							<p>Learn how to build your first responsive website with twitter Bootstrap 3</p>
+						</div>
+					</div>
+
+					<div class="item" id="slide2">
+						<div class="carousel-caption">
+							<h4>WebHosting 101</h4>
+							<p>Learn how to build your first responsive website with twitter Bootstrap 3</p>
+						</div>
+					</div>
+				</div>
+					<a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
+
+					<a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
+
+				
+
+			</div><!--Carousel end-->
+			
+			<div class="row" id="bigCallout">
+				<div class="col-lg-12">
+					<div class="alert alert-success alert-block fade in" id="successAlert">
+						<button type="button" class="close" data-dismiss="alert">&times;</button>
+						<h4>Success !</h4>
+						<p> You just this element display using jQuery. Click on x to close this.</p>
+					</div><!--end alert-->
+					<!--visible only on small devices-->
+					<div class="well well-small visible-sm">
+						<a href="#" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call </a>
+					</div><!-- end well small-->
+					<div class="well">
+						<div class="page-header">
+							<h1> A Fancy Header <small> A subheader for extra </small></h1>
+						</div>
+
+						<p class="lead"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+
+						<a href="#" class="btn btn-lg btn-primary" id="alertMe"> Click on this button</a>
+						<a href="#" class="btn btn-lg btn-link"> or click on this secondary link </a>
+					</div>
+
+				</div>
+
+			</div><!--bigCallout end-->
+
+			<div class="row" id="featuresHeadings">
+				<div class="col-12">
+					<h2> More Features </h2>
+					<p class="lead">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
+				</div>
+			</div><!--end featuresHeadings-->
+
+			<div class="row" id="features">
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title"> Markup with HTML5 </h3>
+						</div>
+						<img src="images/badge_html5.jpg" alt="HTML5" class="img-circle">
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+						<a href="#" class="btn btn-warning btn-block">Learn to code HTML5</a>
+					</div>
+				</div>
+			
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Style with CSS3</h3>
+						</div>
+						<img src="images/badge_css3.jpg" alt="HTML5" class="img-circle">
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+						<a href="#" class="btn btn-danger btn-block">Style it up with CSS3</a>
+					</div>
+				</div>
+
+				<div class="col-sm-4 feature">
+					<div class="panel">
+						<div class="panel-heading">
+							<h3 class="panel-title">Framework with Bootstrap 3</h3>
+						</div>
+						<img src="images/badge_bootstrap.jpg" alt="HTML5" class="img-circle">
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+						<a href="#" class="btn btn-info btn-block">More Bootstrap</a>
+					</div>
+				</div>
+			
+			</div>
+
+
+			<div class="row" id="moreInfo">
+				<div class="col-sm-6">
+					<h3> More Tabbable content</h3>
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="#tab1" data-toggle="tab">Section1</a></li>
+							<li><a href="#tab2" data-toggle="tab">Section2</a></li>
+
+						</ul>
+
+						<div class="tab-content">
+							<div class="tab-pane active" id="tab1">
+								<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small> More like our favourite surf spot</small></h4>
+
+
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.5357357962275!2d76.70097801432509!3d8.7355567959222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b05ef1c47000001%3A0x28d32906ae208476!2sVarkala+Beach!5e0!3m2!1sen!2sus!4v1461830733720" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+							</div>
+
+							<div class="tab-pane" id="tab2">
+								<h4> A Left Floated Picture <small> Using Placehold.it</small></h4>
+								<img src="http://placehold.it/140" class="thumbnail pull-left">
+
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+								<hr>
+
+								<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for a Modal window!</a>
+
+								<div class="modal fade" id="myModal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title"> A Modal Window </h4>
+											</div>
+												<div class="modal-body">
+													<h4>Text in a Modal</h4>
+													<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+
+													<form class="form-horizontal">
+														<div class="form-group">
+															<label class="col-lg-2 control-label" for="inputName">Name</label>
+															<div class="col-lg-10">
+																<input class="form-control" type="text"placeholder="Name" id="inputName">
+															</div>
+														</div>
+
+
+														<div class="form-group">
+															<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+															<div class="col-lg-10">
+																<input class="form-control" type="text"placeholder="Email" id="inputEmail">
+															</div>
+														</div>
+
+														<div class="form-group">
+															<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+															<div class="col-lg-10">
+																<textarea class="form-control" rows="3" placeholder="Message" id="inputMessage"></textarea>
+
+																<button class="btn btn-success pull-right" type="button">Submit</button>
+
+															</div>
+
+
+														</div>
+
+
+
+
+
+
+
+
+
+
+
+														
+
+
+													</form>
+												</div>
+
+
+
+												<div class="modal-footer">
+													<button class="btn btn-default" data-dismiss="modal" type="button"> Close </button>
+													<button class="btn btn-primary" type="button"> Save Changes </button>
+
+												</div>
+
+
+
+											
+
+
+										</div>
+
+
+									</div>
+
+
+								</div><!-- end myModal-->
+
+							</div>
+						</div>
+					</div>
+
+
+				</div><!--end col-->
+
+				<div class="col-sm-6">
+					<h3>Some Text Info</h3>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+					<h4> A List Group</h4>
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Kale</h4>
+							<p class="list-group-item-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+						</a>
+
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Lorem</h4>
+							<p class="list-group-item-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+						</a>
+
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Ipsum</h4>
+							<p class="list-group-item-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+						</a>
+					</div>
+					<h4>A small heading</h4>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+				</div>
+
+			</div>
+			<hr>
+
+			<div class="row" id="moreCourses">
+				<div class="col-12">
+					<h3> Learn more about Web Design</h3>
+					<div class="thumbnails-row">
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/item_webhosting101.jpg" alt="Web Hosting 101">
+								<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span>Free</div>
+								<div class="caption">
+									<h3>Web Hosting 101</h3>
+									<p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+
+									<p><a href="#" class="btn btn-primary btn-small">Take Course</a><a href="#" class="btn-small btn-link">Learn more</a></p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/item_psd2html5.jpg" alt="PSD to HTML5">
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span><sup>$</sup>38</div>
+								<div class="caption">
+									<h3>PSD to HTML5 &amp; CSS3</h3>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+
+
+									<p><a href="#" class="btn btn-primary btn-small"> Take Course</a><a href="#" class="btn btn-link">Learn more</a></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		
+		</div><!--end container-->
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-2">
+						<h6>Copyright &copy; 2016 {Varun}</h6>
+
+					</div>
+
+					<div class="col-sm-4">
+						<h6>About US</h6>
+							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+					</div>
+
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Services</a></li>
+							<li><a href="#">Links</a></li>
+							<li><a href="#">Contacts</a></li>
+						</ul>
+					</div>
+
+					<div class="col-sm-2">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#">Faceboot</a></li>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Google Plus</a></li>
+							<li><a href="#">Instagram</a></li>
+						</ul>
+
+					</div>
+
+					<div class="col-2">
+						<h6>Coded with <span class="glyphicon glyphicon-heart"></span> &nbsp; by Varun</h6>
+					</div>
+
+
+
+				</div>
+
+			</div>
+
+		</footer>
+	
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+		
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+	
+	</body>
+</html>
+
